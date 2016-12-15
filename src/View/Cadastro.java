@@ -245,7 +245,7 @@ public class Cadastro extends javax.swing.JFrame {
             cadfun.setSalario(txtsalario.getText());
             cadfun.setIdade(Integer.parseInt(txtidade.getText()));
             dao.put(cadfun);
-            JOptionPane.showMessageDialog(null, "Funcionario Inserido Com Sucesso !!");
+            JOptionPane.showMessageDialog(null, "Funcionario Inserido Com Sucesso !!!");
         }
             
         
